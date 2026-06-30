@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acerta a Toupeira</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <div class="container" role="application" aria-label="Jogo Acerta a Toupeira">
+    <header>
+      <h1>Acerta a Toupeira</h1>
+
+      <div class="controls">
+        <div class="status">
+          <div><strong>Pontos:</strong> <span id="score">0</span></div>
+          <div><strong>Tempo:</strong> <span id="time">30</span>s</div>
+        </div>
+
+        <button id="startBtn" class="btn">Iniciar</button>
+      </div>
+    </header>
+
+    <div class="board" id="board" aria-live="polite"></div>
+
+    <div class="footer">
+      <div class="settings">
+        <label for="difficulty">Dificuldade</label>
+
+        <select id="difficulty" aria-label="Dificuldade">
+          <option value="easy">Fácil</option>
+          <option value="normal" selected>Normal</option>
+          <option value="hard">Difícil</option>
+        </select>
+
+        <label class="small">Buracos</label>
+
+        <select id="holesCount" aria-label="Quantidade de buracos">
+          <option value="6">6</option>
+          <option value="8">8</option>
+          <option value="12" selected>12</option>
+          <option value="16">16</option>
+        </select>
+      </div>
+
+      <div class="small">
+        Toque ou clique na toupeira para marcar pontos
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
