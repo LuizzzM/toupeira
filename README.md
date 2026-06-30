@@ -4,11 +4,8 @@ Luiz Augusto Mendes Barbosa
 ## 1. Introdução
 
 O projeto consiste na implementação de um jogo eletrônico desenvolvido utilizando **HTML5**, **CSS3** e **JavaScript**, executado diretamente no navegador, sem a necessidade de bibliotecas ou frameworks externos.
-
 O objetivo do jogo é testar os reflexos do jogador, que deve clicar rapidamente sobre a toupeira sempre que ela aparecer em um dos buracos disponíveis antes que ela desapareça.
-
 A pontuação simples torna o jogo fácil de entender, talvez com mais tempo seriam adicionados ranking, animações, novos tipos de toupeira e armazenamento da melhor pontuação.
-
 O desenvolvimento priorizou simplicidade, boa organização do código, acessibilidade e facilidade de manutenção, separando o projeto em três arquivos independentes:
 
 - **index.html** – estrutura da página;
