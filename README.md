@@ -3,14 +3,18 @@ Luiz Augusto Mendes Barbosa
 
 ## 1. Introdução
 
-O projeto consiste na implementação de um jogo eletrônico desenvolvido utilizando **HTML5**, **CSS3** e **JavaScript**, executado diretamente no navegador, sem a necessidade de bibliotecas ou frameworks externos.
+Desenvolver um jogo simples, divertido e acessível, capaz de ser executado diretamente no navegador sem instalação. Assim, este projeto consiste na implementação de um jogo eletrônico desenvolvido utilizando **HTML5**, **CSS3** e **JavaScript**, executado diretamente no navegador, sem a necessidade de bibliotecas ou frameworks externos.
 O objetivo do jogo é testar os reflexos do jogador, que deve clicar rapidamente sobre a toupeira sempre que ela aparecer em um dos buracos disponíveis antes que ela desapareça.
 A pontuação simples torna o jogo fácil de entender, talvez com mais tempo seriam adicionados ranking, animações, novos tipos de toupeira e armazenamento da melhor pontuação.
+Além da mecânica tradicional, o jogo conta com um sistema de efeitos sonoros desenvolvido utilizando a **Web Audio API**. Em vez de utilizar arquivos de áudio, como MP3 ou WAV, todos os sons são sintetizados em tempo real pelo próprio navegador. Foram implementados três efeitos sonoros distintos: um reproduzido no início da partida, outro quando o jogador acerta a toupeira e um terceiro ao término do jogo, proporcionando uma experiência mais dinâmica e imersiva.
+
 O desenvolvimento priorizou simplicidade, boa organização do código, acessibilidade e facilidade de manutenção, separando o projeto em três arquivos independentes:
 
 - **index.html** – estrutura da página;
 - **css/estilos.css** – aparência e estilização;
 - **js/script.js** – lógica do jogo.
+
+ Para conferir, basta acessar o link: https://toupeira.netlify.app/  ou seguir as orientações abaixo.
 
 ---
 
@@ -28,13 +32,6 @@ Optou-se por uma representação simples da toupeira utilizando uma esfera color
 
 A mecânica principal do jogo consiste no surgimento aleatório da toupeira em diferentes buracos do tabuleiro, exigindo que o jogador reaja rapidamente para acertá-la antes que desapareça. A pontuação é baseada na quantidade de acertos realizados durante uma partida com duração de 30 segundos, controlada por um cronômetro regressivo. Além disso, o jogo possui níveis de dificuldade que alteram o tempo de permanência da toupeira na tela, tornando a experiência mais desafiadora conforme a dificuldade selecionada. Essa mecânica exige rapidez, coordenação motora e atenção constante.
 
-
-
-# 3. Briefing do cliente
-
-## Objetivo
-
-Desenvolver um jogo simples, divertido e acessível, capaz de ser executado diretamente no navegador sem instalação.
 
 ## Público-alvo
 
@@ -103,12 +100,6 @@ Todas as partidas possuem duração de:
 **30 segundos**
 
 ---
-
-# 5. Diferencial do projeto
-
-Além da mecânica tradicional, o jogo conta com um sistema de efeitos sonoros desenvolvido utilizando a **Web Audio API**. Em vez de utilizar arquivos de áudio, como MP3 ou WAV, todos os sons são sintetizados em tempo real pelo próprio navegador. Foram implementados três efeitos sonoros distintos: um reproduzido no início da partida, outro quando o jogador acerta a toupeira e um terceiro ao término do jogo, proporcionando uma experiência mais dinâmica e imersiva. 
-
-
 
 # 6. Como jogar
 
